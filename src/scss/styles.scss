@@ -1,12 +1,14 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .vg-outer {
   position: relative;
   background: #333333;
   color: white;
+  height: calc(100% - 50px);
 }
 
 .vg-container {
@@ -15,7 +17,7 @@ body {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  height: calc(100vh - 50px);
+  height: 100%;
   align-items: flex-start;
   align-content: flex-start;
   justify-content: center;
