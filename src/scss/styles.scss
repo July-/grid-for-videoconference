@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.vg-outer {
+  position: relative;
+  background: #333333;
+  color: white;
+}
+
+.vg-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: calc(100vh - 50px);
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.vg-item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  position: relative;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.vg-item-inner {
+  border: solid 1px white;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.vg-controls {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+.vg-button {
+  border: none;
+  background: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  margin: 0 10px;
+}
+
+.vg-own {
+  position: absolute !important;
+  width: 100px;
+  height: 100px;
+  border: solid 1px white;
+  display: flex;
+  box-sizing: border-box;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 100%;
+  z-index: 10;
+  cursor: move;
+}
+
+.github-corner {
+  position: absolute; 
+  top: 0; 
+  right: 0;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
