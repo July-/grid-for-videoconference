@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://july-.github.io/grid-for-videoconference/">
     <img src="src/images/grid.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,7 +9,7 @@
   <p align="center">
     A layout designed for video conference.  
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://july-.github.io/grid-for-videoconference/">View Demo</a>
   </p>
 </p>
 
